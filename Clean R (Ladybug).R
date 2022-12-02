@@ -17,6 +17,7 @@ df_final %>%
 
 #Clean Name
 df_final$scientificName[df$scientificName == ""] <- "Unknown"
+df_final$scientificName <- toupper(df$scientificName)
 
 #Clean State   
 df_final$stateProvince[df$stateProvince == "IL"] <- "Illinois"
@@ -25,5 +26,5 @@ df_final$stateProvince[df$stateProvince == "Ia"] <- "Iowa"
 df_final$stateProvince[df$stateProvince == "Il"] <- "Illinois"
 
 #Create new file
-write.csv(df_final, "~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore/data/clean_data.csv", row.names = FALSE)
+write.csv(df_final, "~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore/data/cleaned_data.csv", row.names = FALSE)
 
