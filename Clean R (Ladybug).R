@@ -16,8 +16,8 @@ df_final %>%
   dplyr::distinct(id)
 
 #Clean Name
-df_final$scientificName[df$scientificName == ""] <- "Unknown"
-df_final$scientificName <- toupper(df$scientificName)
+df_final$scientificName[df_final$scientificName == ""] <- "Unknown"
+df_final$scientificName <- toupper(df_final$scientificName)
 
 #Clean State   
 df_final$stateProvince[df$stateProvince == "IL"] <- "Illinois"
