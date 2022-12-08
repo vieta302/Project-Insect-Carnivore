@@ -6,7 +6,7 @@ library(ggplot2)
 rm(list = ls())
 
 setwd("~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore")
-df <- read.csv("data/cleaned_data.csv")
+df <- read.csv("data/main.csv")
 
 #Total for each state
 df_state <- df %>%

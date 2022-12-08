@@ -25,6 +25,6 @@ df_final$stateProvince[df$stateProvince == "Il"] <- "Illinois"
 df_final$stateProvince[df$stateProvince == "IA"] <- "Iowa"
 df_final$stateProvince[df$stateProvince == "Ia"] <- "Iowa"
 
-#Create new file
-write.csv(df_final, "~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore/data/cleaned_data.csv", row.names = FALSE)
+#Create finalized data
+write.csv(df_final, "~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore/data/main.csv", row.names = FALSE)
 
