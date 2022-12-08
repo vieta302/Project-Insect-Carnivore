@@ -43,9 +43,9 @@ decades_data <- decades %>%
 
 #Total for each decade
 ggplot(decades_data, aes(x=year, y = n, group = 1)) +
-  geom_line(color = "orange") + ylim(0,500)+
+  geom_line(color = "black") + ylim(0,500)+
   ggtitle("Number of Ladybugs recorded by Decades")+
-  labs(x = "Decades", y = "Number of Ladybugs")+ geom_point(color = "black")+
+  labs(x = "Decades", y = "Number of Ladybugs")+ geom_point(color = "red")+
   theme_minimal()
 
 
