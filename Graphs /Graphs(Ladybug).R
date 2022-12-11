@@ -8,7 +8,7 @@ rm(list = ls())
 setwd("~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore")
 df <- read.csv("data/main.csv")
 
-#Total for each state
+#Total for each state (Graph1)
 state <- df %>%
   count(stateProvince)
 
@@ -20,7 +20,7 @@ ggplot(state, aes(x=stateProvince, y=n)) +
   ggtitle("Total number of Ladybugs for each State") +
   theme_minimal() 
 
-#Total for each kind 
+#Total for each kind (Graph2)
 name <- df %>%
   count(scientificName)
 
@@ -41,10 +41,10 @@ decades$year <- paste(decades$year, "0s", sep = "")
 decades_data <- decades %>%
   count(year)
 
-#Total for each decade
+#Total for each decade (Graph3)
 ggplot(decades_data, aes(x=year, y = n, group = 1)) +
   geom_line(color = "black") + ylim(0,500)+
-  ggtitle("Number of Ladybugs recorded by Decades")+
+  ggtitle("Total number of Ladybugs for each Decades")+
   labs(x = "Decades", y = "Number of Ladybugs")+ geom_point(color = "red")+
   theme_minimal()
 
