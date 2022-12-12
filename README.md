@@ -1,4 +1,7 @@
 # Project-Insect-Carnivore
+<div align = "center">
+<img src = "https://github.com/vieta302/Project-Insect-Carnivore/blob/main/Orange-Ladybug.jpeg" width = "450")>
+</div>
 
 ## It's Coming Home Team Members:
 Viet Anh Nguyen, Houssam Hallouch, Dawit Tadele
