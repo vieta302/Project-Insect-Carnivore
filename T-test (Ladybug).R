@@ -2,7 +2,6 @@ library(readxl)
 library(tidyverse)
 library(dplyr)
 library(lubridate)
-library(ggplot2)
 rm(list = ls())
 
 setwd("~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore")
