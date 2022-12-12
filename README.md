@@ -69,7 +69,8 @@ decades_data <- decades %>%
 <img src = "https://github.com/vieta302/Project-Insect-Carnivore/blob/main/Graphs%20/Total%20for%20each%20decade.png" width = "600")>
 </div>
 
-IV. T-Test
+---
+## T-Test
 - Null hypothesis: the average number of ladybugs in one state is 92.
 - Alternative hypothesis: the average number of ladybugs found in one state is different than 92.
 - Conclusion: There is not enough evidence to conclude that the average number of ladybugs recorded in one state is different than 92.
