@@ -34,5 +34,12 @@ df_final$stateProvince[df$stateProvince == "Ia"] <- "Iowa"
 write.csv(df_final, "~/Desktop/Fall 2022/DATA 331/Final /Project-Insect-Carnivore/data/main.csv", row.names = FALSE)
 ```
 
+---
+## Visualizations
+I. Total number of Ladybugs for each State:
+<div align = "center">
+<img src = "https://github.com/vieta302/Project-Insect-Carnivore/blob/main/Graphs%20/Total%20for%20each%20state.png" width = "600")>
+</div>
+
 
 
